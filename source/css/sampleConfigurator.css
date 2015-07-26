@@ -1,0 +1,152 @@
+.sample-config{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.sample-config .sample-container{
+    display: block;
+    position: absolute;
+    vertical-align: top;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 350px;
+}
+.sample-container .sample-header{
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-color: #FFF;
+}
+.sample-header-text{
+    color: #515151;
+    height: 70px;
+    width: auto;
+    line-height: 70px;
+    font-size: 28px;
+    margin-left: 60px;
+}
+.board-options{
+}
+.sample-container .sample-board-container{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-left: 60px;
+}
+.sample-config .sample-list-container{
+    display: block;
+    position: absolute;
+    vertical-align: top;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 350px;
+    background-color: #ebedea;
+}
+.sample-list-container .sample-list-header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    line-height: 70px;
+    color: #515151;
+}
+.sample-list-container .sample-list-header p{
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 2px solid #CCC;
+}
+/* Sample List */
+.sample-list-container .sample-list{
+    position: absolute;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.sample-list-container .sample-list > ul{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    list-style-type: none;
+}
+.sample-list-container .sample-list ul > li{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+.sample-list-container .sample-list ul > li:hover{
+    cursor: move;
+}
+.sample-list ul > li .sample-img{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}
+.sample-list ul > li .sample-img img{
+    width: 40px;
+    height: 40px;
+}
+.sample-list ul > li .sample-name{
+    display: inline-block;
+    color: #515151;
+    font-size: 24px;
+    margin-left: 15px;
+    line-height: 60px;
+    vertical-align: top;
+}
+
+/* Sample Board */
+.board{
+    margin: 15px auto;
+    width: auto;
+}
+.board .board-row{
+    margin-bottom: 20px;
+}
+
+.board .board-cell{
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    border-radius: 10px; 
+    margin-right: 20px;
+    border: 2px dashed #CCC;
+    width: 250px;
+    height: 250px;
+}
+
+.board .board-cell > p{
+    color: #CCC;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 250px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.board .board-cell:hover{
+background-color: #F3F3F3
+}
+
+/* Drag Sample */
+.drag-sample{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.drag-sample img{
+    width: 100%;
+    height: 100%;
+}

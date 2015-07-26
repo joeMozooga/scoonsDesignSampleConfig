@@ -1,0 +1,94 @@
+{
+    "samples": [
+        {
+            "id":"1",
+            "name":"Flake CU10",
+            "image":"flake_cu10_final.jpg"
+        },
+        {
+            "id":"2",
+            "name":"Flake CU12",
+            "image":"flake_cu12_final.jpg"
+        },
+        {
+            "id":"3",
+            "name":"Flake EC80",
+            "image":"flake_ec80_final.jpg"
+        },
+        {
+            "id":"4",
+            "name":"Flake EC83",
+            "image":"flake_ec83_final.jpg"
+        },
+        {
+            "id":"5",
+            "name":"Flake EC84",
+            "image":"flake_ec84_final.jpg"
+        },
+        {
+            "id":"6",
+            "name":"Flake EC85",
+            "image":"flake_ec85_final.jpg"
+        },
+        {
+            "id":"7",
+            "name":"Quartz 321 Tropical Blue",
+            "image":"quartz_321 tropical blue_final.jpg"
+        },
+        {
+            "id":"8",
+            "name":"Quartz Bramble",
+            "image":"quartz_bramble_final.jpg"
+        },
+        {
+            "id":"9",
+            "name":"Quartz Flintrock",
+            "image":"quartz_flintrock_final.jpg"
+        },
+        {
+            "id":"10",
+            "name":"Quartz Garden Path",
+            "image":"quartz_garden path_final.jpg"
+        },
+        {
+            "id":"11",
+            "name":"Quartz Gray Fox",
+            "image":"quartz_gray fox_final.jpg"
+        },
+        {
+            "id":"12",
+            "name":"Quartz Pumpkin Spice",
+            "image":"quartz_pumpkin spice_final.jpg"
+        },
+        {
+            "id":"13",
+            "name":"Solid Caramel",
+            "image":"solid_caramel_final.jpg"
+        },
+        {
+            "id":"14",
+            "name":"Solid Charcoal",
+            "image":"solid_charcoal_final.jpg"
+        },
+        {
+            "id":"15",
+            "name":"Solid Classic Tile Red",
+            "image":"solid_classic tile red_final.jpg"
+        },
+        {
+            "id":"16",
+            "name":"Solid Pewter",
+            "image":"solid_pewter_final.jpg"
+        },
+        {
+            "id":"17",
+            "name":"Solid Royal Blue",
+            "image":"solid_royal blue_final.jpg"
+        },
+        {
+            "id":"18",
+            "name":"Solid Silver Grey",
+            "image":"solid_silver grey_final.jpg"
+        }        
+    ]
+}
