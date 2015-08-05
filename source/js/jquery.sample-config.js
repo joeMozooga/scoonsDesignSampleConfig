@@ -174,7 +174,7 @@
                 var board = this.boardList[$(e.currentTarget).parent().attr('boardid')];
                 
                 //Remove current
-                this.$sampler.find('.board-item .current').removeClass('current');
+                this.$sampler.find('.board-item.current').removeClass('current');
                 
                 //Set current
                 this.$sampler.find('#layout'+board.id+'.board-item').addClass('current');
