@@ -25,8 +25,89 @@
     line-height: 70px;
     font-size: 28px;
     margin-left: 60px;
+    display: inline-block;
+    vertical-align: top;
 }
 .board-options{
+    margin-left: 10px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+.board-options > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.board-options > ul > li.board-option{
+    display: inline-block;
+    margin-left: 10px;
+    height: 100%;
+    width: 32px;
+    vertical-align: top;
+}
+.board-options > ul > li.board-option .board-item{
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+    background-size: 100% 100%;
+}
+.board-options > ul > li.board-option .board-item:hover{
+    cursor: pointer;
+}
+.board-options > ul > li.board-option > #layout1.board-item.current{
+    background-image: url(../images/board-layout1-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout2.board-item.current{
+    background-image: url(../images/board-layout2-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout3.board-item.current{
+    background-image: url(../images/board-layout3-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout4.board-item.current{
+    background-image: url(../images/board-layout4-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout5.board-item.current{
+    background-image: url(../images/board-layout5-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout6.board-item.current{
+    background-image: url(../images/board-layout6-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout7.board-item.current{
+    background-image: url(../images/board-layout7-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout8.board-item.current{
+    background-image: url(../images/board-layout8-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout9.board-item.current{
+    background-image: url(../images/board-layout9-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout1.board-item:hover{
+    background-image: url(../images/board-layout1-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout2.board-item:hover{
+    background-image: url(../images/board-layout2-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout3.board-item:hover{
+    background-image: url(../images/board-layout3-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout4.board-item:hover{
+    background-image: url(../images/board-layout4-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout5.board-item:hover{
+    background-image: url(../images/board-layout5-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout6.board-item:hover{
+    background-image: url(../images/board-layout6-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout7.board-item:hover{
+    background-image: url(../images/board-layout7-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout8.board-item:hover{
+    background-image: url(../images/board-layout8-dark.png)!important;
+}
+.board-options > ul > li.board-option > #layout9.board-item:hover{
+    background-image: url(../images/board-layout9-dark.png)!important;
 }
 .sample-container .sample-board-container{
     display: block;
@@ -104,6 +185,51 @@
     vertical-align: top;
 }
 
+.sample-preview{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 400px;
+    height: 175px;
+    left: -420px;
+    top: 0px;
+    -moz-box-shadow:    1px 1px 3px 1px #BDBDBD;
+    -webkit-box-shadow: 1px 1px 3px 1px #BDBDBD;
+    box-shadow:         1px 1px 3px 1px #BDBDBD;
+}
+
+.sample-preview > .preview-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.sample-preview > .preview-container > .image-preview{
+    display: inline-block;
+    vertical-align: top;
+    width: 155px;
+    height: 155px;
+    background-image: url("../images/samples/flake_cu12_final.jpg");
+    background-size: 100% 100%;
+}
+
+.sample-preview > .preview-container > .info-preview{
+    display: inline-block;
+    vertical-align: top;
+    width: 210px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.info-preview > .title{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.info-preview > .description{
+    width: 100%;
+}
+
 /* Sample Board */
 .board{
     margin: 15px auto;
@@ -115,17 +241,20 @@
 
 .board .board-cell{
     display: inline-block;
+    vertical-align: top;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px; 
     border-radius: 10px; 
     margin-right: 20px;
-    border: 2px dashed #CCC;
+    border: 2px dashed #BCBCBC;
     width: 250px;
     height: 250px;
+    background-size: 100% 100%;
+    
 }
 
 .board .board-cell > p{
-    color: #CCC;
+    color: #BCBCBC;
     height: 100%;
     width: 100%;
     text-align: center;

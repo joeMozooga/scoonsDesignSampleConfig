@@ -3,61 +3,13 @@
         {
             "id":"1",
             "icon":""
-            "cols":"1",
-            "rows":"2"
-            "width":"1"
-            "height":"1"
-        },
-        {
-            "id":"1",
-            "icon":""
-            "cols":"1",
-            "rows":"2"
-            "width":"1"
-            "height":"2"
-        },
-        {
-            "id":"1",
-            "icon":""
-            "cols":"1",
-            "rows":"4"
-            "width":"1"
-            "height":"1"
-        },
-        {
-            "id":"1",
-            "icon":""
-            "cols":"2",
-            "rows":"2"
-            "width":"1"
-            "height":"1"
-        },
-        {
-            "id":"1",
-            "icon":""
             "cols":"2",
             "rows":"3"
             "width":"1"
             "height":"1"
         },
         {
-            "id":"1",
-            "icon":""
-            "cols":"2",
-            "rows":"3"
-            "width":"1"
-            "height":"1"
-        },
-        {
-            "id":"1",
-            "icon":""
-            "cols":"2",
-            "rows":"4"
-            "width":"1"
-            "height":"1"
-        },
-        {
-            "id":"1",
+            "id":"2",
             "icon":""
             "cols":"3",
             "rows":"3"
@@ -65,7 +17,55 @@
             "height":"1"
         },
         {
-            "id":"1",
+            "id":"3",
+            "icon":""
+            "cols":"1",
+            "rows":"4"
+            "width":"1"
+            "height":"1"
+        },
+        {
+            "id":"4",
+            "icon":""
+            "cols":"2",
+            "rows":"2"
+            "width":"1"
+            "height":"1"
+        },
+        {
+            "id":"5",
+            "icon":""
+            "cols":"1",
+            "rows":"2"
+            "width":"1"
+            "height":"1"
+        },
+        {
+            "id":"6",
+            "icon":""
+            "cols":"2",
+            "rows":"3"
+            "width":"1"
+            "height":"1"
+        },
+        {
+            "id":"7",
+            "icon":""
+            "cols":"2",
+            "rows":"4"
+            "width":"1"
+            "height":"1"
+        },
+        {
+            "id":"8",
+            "icon":""
+            "cols":"1",
+            "rows":"2"
+            "width":"1"
+            "height":"2"
+        },
+        {
+            "id":"9",
             "icon":""
             "cols":"3",
             "rows":"4"
